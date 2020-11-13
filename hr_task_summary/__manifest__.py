@@ -9,7 +9,7 @@
     'development_status': 'Production/Stable',
     'application': False,
     'installable': True,
-    'depends': ['hr', 'project'],
+    'depends': ['hr', 'project','hr_timesheet'],
     'data': [
         'views/hr_views.xml',
      ],
