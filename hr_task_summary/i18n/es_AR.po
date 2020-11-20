@@ -1,0 +1,190 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_task_summary
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-20 10:13+0000\n"
+"PO-Revision-Date: 2020-11-20 07:21-0300\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_AR\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#. module: hr_task_summary
+#: model:ir.ui.view,arch_db:hr_task_summary.edit_project
+msgid "<span class=\"o_stat_text\">Task Summary</span>"
+msgstr "<span class=\"o_stat_text\">Resumen de Tareas</span>"
+
+#. module: hr_task_summary
+#: model:ir.ui.view,arch_db:hr_task_summary.edit_project
+msgid "<span class=\"o_stat_text\">Total Balance</span>"
+msgstr "<span class=\"o_stat_text\">Balance Total</span>"
+
+#. module: hr_task_summary
+#: code:addons/hr_task_summary/models/project_lines.py:27
+#, python-format
+msgid "A project cannot have two identical analytic accounts"
+msgstr "Un proyecto no puede tener dos cuentas analíticas idénticas"
+
+#. module: hr_task_summary
+#: model:ir.model.fields,field_description:hr_task_summary.field_project_project_lines_extra_account_ids
+msgid "Account"
+msgstr "Cuenta"
+
+#. module: hr_task_summary
+#: model:ir.ui.view,arch_db:hr_task_summary.account_balance_search
+msgid "Account Analysis"
+msgstr "Análisis de cuenta"
+
+#. module: hr_task_summary
+#: model:ir.model.fields,field_description:hr_task_summary.field_project_project_lines_accounts_id
+msgid "Analytic Account"
+msgstr "Cuenta Analítica"
+
+#. module: hr_task_summary
+#: model:ir.ui.view,arch_db:hr_task_summary.edit_project
+msgid "Analytic Accounts"
+msgstr "Cuentas Analíticas"
+
+#. module: hr_task_summary
+#: model:ir.ui.view,arch_db:hr_task_summary.edit_project
+msgid "Analytics Accounts"
+msgstr "Cuentas Analíticas"
+
+#. module: hr_task_summary
+#: model:ir.actions.act_window,name:hr_task_summary.action_account_balance
+msgid "Anlytic Accounts Balance"
+msgstr "Balance de Cuentas Analíticas"
+
+#. module: hr_task_summary
+#: model:ir.model.fields,field_description:hr_task_summary.field_project_project_lines_balance
+msgid "Balance"
+msgstr "Balance"
+
+#. module: hr_task_summary
+#: model:ir.model.fields,field_description:hr_task_summary.field_project_project_lines_company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: hr_task_summary
+#: model:ir.model.fields,field_description:hr_task_summary.field_project_project_lines_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: hr_task_summary
+#: model:ir.model.fields,field_description:hr_task_summary.field_project_project_lines_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: hr_task_summary
+#: model:ir.model.fields,field_description:hr_task_summary.field_project_project_lines_credit
+msgid "Credit"
+msgstr "Haber"
+
+#. module: hr_task_summary
+#: model:ir.model.fields,field_description:hr_task_summary.field_project_project_lines_currency_id
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: hr_task_summary
+#: model:ir.model.fields,field_description:hr_task_summary.field_project_project_lines_partner_id
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: hr_task_summary
+#: model:ir.model.fields,field_description:hr_task_summary.field_project_project_lines_debit
+msgid "Debit"
+msgstr "Debe"
+
+#. module: hr_task_summary
+#: model:ir.model.fields,field_description:hr_task_summary.field_project_project_effective_planned_hours
+msgid "Effective Planned Hours"
+msgstr "Horas Planificadas Efectivas"
+
+#. module: hr_task_summary
+#: model:ir.model.fields,field_description:hr_task_summary.field_project_project_lines_id
+msgid "ID"
+msgstr "ID"
+
+#. module: hr_task_summary
+#: model:ir.model.fields,field_description:hr_task_summary.field_project_project_lines___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: hr_task_summary
+#: model:ir.model.fields,field_description:hr_task_summary.field_project_project_lines_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización realizada por"
+
+#. module: hr_task_summary
+#: model:ir.model.fields,field_description:hr_task_summary.field_project_project_lines_write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: hr_task_summary
+#: model:ir.model.fields,field_description:hr_task_summary.field_project_project_lines_display_name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: hr_task_summary
+#: model:ir.model,name:hr_task_summary.model_project_project
+#: model:ir.model.fields,field_description:hr_task_summary.field_project_project_lines_project_id
+msgid "Project"
+msgstr "Proyecto"
+
+#. module: hr_task_summary
+#: model:ir.model.fields,field_description:hr_task_summary.field_project_project_lines_code
+msgid "Reference"
+msgstr "Referencia"
+
+#. module: hr_task_summary
+#: model:ir.ui.view,arch_db:hr_task_summary.task_summary_tree
+msgid "Spent Hours"
+msgstr "Horas dedicadas"
+
+#. module: hr_task_summary
+#: model:ir.actions.act_window,name:hr_task_summary.action_task_summary
+msgid "Task Summary"
+msgstr "Task Summary"
+
+#. module: hr_task_summary
+#: model:ir.model.fields,field_description:hr_task_summary.field_project_project_total_balance
+#: model:ir.ui.view,arch_db:hr_task_summary.account_balance_tree
+msgid "Total Balance"
+msgstr "Balance Total"
+
+#. module: hr_task_summary
+#: model:ir.ui.view,arch_db:hr_task_summary.account_balance_tree
+msgid "Total Credit"
+msgstr "Crédito total"
+
+#. module: hr_task_summary
+#: model:ir.ui.view,arch_db:hr_task_summary.account_balance_tree
+msgid "Total Debit"
+msgstr "Débito total"
+
+#. module: hr_task_summary
+#: model:ir.model,name:hr_task_summary.model_project_project_extra
+msgid "project.project.extra"
+msgstr "project.project.extra"
+
+#. module: hr_task_summary
+#: model:ir.model,name:hr_task_summary.model_project_project_extra_lines
+msgid "project.project.extra.lines"
+msgstr "project.project.extra.lines"
+
+#. module: hr_task_summary
+#: model:ir.model,name:hr_task_summary.model_project_project_lines
+msgid "project.project.lines"
+msgstr "project.project.lines"
+
+#. module: hr_task_summary
+#: model:ir.model.fields,field_description:hr_task_summary.field_project_project_extra_accounts
+msgid "related analytics accounts"
+msgstr "Cuentas Analíticas Relacionadas"

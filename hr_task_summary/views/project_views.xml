@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="task_summary_tree" model="ir.ui.view">
+            <field name="name">project.task.tree</field>
+            <field name="model">project.task</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="planned_hours" widget="float_time" sum="Spent Hours"/>
+                    <field name="effective_hours" widget="float_time" sum="Spent Hours"/>
+                    <field name="remaining_hours" widget="float_time" sum="Spent Hours"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="action_task_summary" model="ir.actions.act_window">
+            <field name="res_model">project.task</field>
+            <field name="name">Task Summary</field>
+            <field name="view_mode">tree</field>
+            <field name="view_id" ref="task_summary_tree"/>
+            <field name="domain">[("project_id", "!=", False)]</field>
+            <field name="context">{"default_project_id": active_id, "search_default_project_id": [active_id]}</field>
+        </record>
+    </data>
+</odoo>
