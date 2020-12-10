@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+
+access_project_porject_lines,project.porject.lines,model_project_porject_lines,project.group_project_user,1,1,1,1
+access_project_porject_lines_manager,project.porject.lines manager,model_project_porject_lines,project.group_project_manager,1,1,1,1
+access_project_porject_lines_subtask,project.porject.lines subtask,model_project_porject_lines,project.group_subtask_project,1,1,1,1
