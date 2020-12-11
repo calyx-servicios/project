@@ -11,6 +11,7 @@
     'installable': True,
     'depends': ['hr', 'project','hr_timesheet'],
     'data': [
+        'security/ir.model.access.csv',
         'views/project_views.xml',
         'views/project_line_views.xml',
      ],
