@@ -32,25 +32,6 @@ This module extends the functionality of Project Custom
 
 .. !!! Instalation: must only be present if there are very specific installation instructions, such as installing non-python dependencies.The audience is systems administrators. ] To install this module, you need to: !!!
 
-Install
-=======
-
-# Go to apps and install the module Project Custom
-
-Usage
-=====
-
-1. Project Custom
-
-Known issues / Roadmap
-======================
-
-* Bugs or Roadmap
-
-Bug Tracker
-===========
-
-* Help Contact
 
 Credits
 =======
